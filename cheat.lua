@@ -7,7 +7,7 @@ screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 -- Створюємо Frame для перетягування
 local frame = Instance.new("Frame")
 frame.Size = UDim2.new(0, 200, 0, 50)
-frame.Position = UDim2.new(0.5, -100, 0.5, -25)
+frame.Position = UDim2.new(0.5, 400, 0.5, 200)
 frame.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
 frame.Active = true
 frame.Parent = screenGui
